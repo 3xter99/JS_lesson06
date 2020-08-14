@@ -65,4 +65,4 @@ function random(numberAttempts, initialNumberAttempts) {
     }
     return getResponse()
 }
-random(1)
+random(10)
