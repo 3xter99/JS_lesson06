@@ -11,7 +11,7 @@ function random() {
             random()
         } else if ( y == null) {
             return alert('Выходим')
-        } else if (y < x && y > 0 || y < 0) {
+        } else if (y < x) {
             alert('Загаданное число больше')
             random()
         } else if (!isNumber(y)){
